@@ -1,0 +1,103 @@
+body {
+ font-family: Arial, sans-serif;
+ background: #fafafa;
+ margin: 0;
+ padding: 0;
+}
+.navbar {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background: #fff;
+ padding: 1rem 2rem;
+ border-bottom: 2px solid #eee;
+}
+.brand {
+ font-size: 1.5rem;
+ font-weight: bold;
+ color: #24378e;
+}
+.download-app {
+ background: #ff4f00;
+ color: #fff;
+ padding: 0.4rem 1rem;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+.top-section h2,
+.mid-section h2 {
+ padding: 1rem 2rem 0.5rem;
+ color: #24378e;
+}
+.pizza-grid {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 1rem;
+ padding: 1rem 2rem;
+}
+.pizza-card {
+ background: #ff4f00;
+ color: #fff;
+ text-align: center;
+ border-radius: 10px;
+ padding: 1rem;
+ box-shadow: 0 0 8px #ccc;
+}
+.pizza-card img {
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+}
+.pizza-card h3 {
+ margin: 0.5rem 0;
+}
+.pizza-card button {
+ background: #24378e;
+ color: #fff;
+ border: none;
+ padding: 0.4rem 1rem;
+ border-radius: 4px;
+ margin-top: 0.7rem;
+ cursor: pointer;
+}
+.mid-section {
+ background: #fff;
+ padding-bottom: 1rem;
+}
+.explore-grid {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ gap: 1rem;
+ padding: 1rem 2rem;
+}
+.explore-item {
+ background: #eee;
+ color: #24378e;
+ text-align: center;
+ padding: 1rem 0.5rem;
+ border-radius: 8px;
+ font-weight: bold;
+}
+.bottom-section {
+ background: #fff;
+ padding: 2rem;
+}
+.offers-flex {
+ display: flex;
+ gap: 2rem;
+ align-items: center;
+}
+.offers-images img {
+ width: 100px;
+ margin-right: 1rem;
+ border-radius: 10px;
+}
+.offers-info h3 {
+ color: #24378e;
+ margin-bottom: 0.7rem;
+}
+.offers-info img {
+ width: 120px;
+ margin: 0.5rem;
+}

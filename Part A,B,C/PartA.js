@@ -44,7 +44,7 @@ console.log(multiply(3, 4));
 
 /* Q7. Optional Chaining */
 let emp = {
-  name: "Prakash",
+  name: "Prakash", 
   details: {
     department: "IT",
     profile: { role: "Developer" }
